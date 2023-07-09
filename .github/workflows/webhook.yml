@@ -1,0 +1,12 @@
+name: discord message
+on: [push]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Discord notification
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.WEBHOOK_TOKEN }}
+      uses: Ilshidur/action-discord@master
