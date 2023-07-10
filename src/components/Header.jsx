@@ -5,7 +5,9 @@ import "../css/header.css";
 const Header = () => {
     return (
         <header>
-            <h1>Recoursive Tutoring</h1>
+            <Link to="/">
+                <h1>Recoursive Tutoring</h1>
+            </Link>
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>

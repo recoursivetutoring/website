@@ -6,11 +6,13 @@ header {
     padding: 0 20px;
     background-color: rgb(72, 72, 213);
     margin: 0;
+    box-sizing: border-box;
 }
 
 header h1 {
     font-family: 'Agdasima', sans-serif;
     letter-spacing: 0.10rem;
+    color: white;
 }
 
 header ul {
@@ -33,17 +35,22 @@ header ul li a {
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
-        /* align-items: flex-start; */
     }
-
+    
     header ul {
+        width: 100vw;
         flex-direction: column;
-        border: 2px solid green;
-        /* align-items: flex-start; */
         justify-content: center;
+        align-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 3vw;
     }
 
-    header ul li {
-        margin: 0.5rem 0;
+    header ul>li, header ul>li>a {
+        box-sizing: border-box;
+        margin: 0.5rem auto;
+        width: 100%;
+        text-align: center;
     }
 }
