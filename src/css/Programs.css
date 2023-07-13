@@ -53,7 +53,7 @@
     background-color: rgba(50, 82, 110, 0.84);
     background-clip: border-box;
     border: 1px solid white;
-    
+    margin-bottom: 1.5rem
 }
 
 .card>hr {
