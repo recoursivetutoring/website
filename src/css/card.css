@@ -1,0 +1,55 @@
+.card {
+    font-size: 1rem;
+    font-family: "Exo 2", sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #3a6f9dd6;
+    background-clip: border-box;
+    border: 1px solid white;
+    min-height: 50vh;
+    max-height: 100vh;
+    border-radius: 2%;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px #000;
+    transform: scale(1.05);
+}
+
+.card-heading {
+    overflow: hidden;
+    max-height: 40%;
+    height: 20vh;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.card-heading img {
+    margin: auto;
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.card-body p {
+    line-height: 1.5rem;
+    margin: 1rem 5% 2rem;
+}
+
+.card .title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: "Jost", sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px #000000;
+    margin: 0.25rem auto;
+    text-align: center;
+}
