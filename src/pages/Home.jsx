@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <main>
+            <main className="home-body">
                 <h2>Recoursive</h2>
                 <a href="/programs" className="top-link">Learn more about our programs</a>
                 <a href="/register" className="top-link">Reserve a class</a>

@@ -2,7 +2,7 @@ body {
     overflow: hidden;
 }
 
-main {
+main.home-body {
     margin: 0;
     width: 100vw;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ main {
     position: relative;
 }
 
-main::before {
+main.home-body::before {
     filter: blur(4px);
     background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("src/assets/code.jpg");
     background-blend-mode: multiply;
@@ -37,7 +37,7 @@ main h2 {
     text-shadow: 0 0 20px #000000;
 }
 
-main a.top-link {
+main.home-body a.top-link {
     text-transform: uppercase;
     color: white;
     font-size: 1rem;
@@ -54,13 +54,13 @@ main a.top-link {
     transition: all 0.4s ease-in-out;
 }
 
-main a.top-link:hover {
+main.home-body a.top-link:hover {
     background-color: white;
     color: rgba(50, 82, 110, 0.84)
 }
 
 @media screen and (max-width: 768px) {
-    main::before {
+    main.home-body::before {
         top: 0;
         background-position: center;
     }
@@ -71,7 +71,7 @@ main a.top-link:hover {
         text-align: center;
     }
 
-    main a.top-link {
+    main.home-body a.top-link {
         margin: 1rem auto;
     }
 }

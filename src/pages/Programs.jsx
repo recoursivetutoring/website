@@ -1,40 +1,34 @@
 import React from "react";
 import Header from "../components/Header";
-//imported home.css to keep a general theme(?)
-import "../css/Home.css";
-//external other css for the card stuff
 import "../css/Programs.css";
+import Card from "../components/Card";
+import ScratchLogo from "../assets/scratch.png";
+import PythonLogo from "../assets/python.png";
+import WebDevLogo from "../assets/webdev.jpg";
+
 const Programs = () => {
     return (
         <>
             <Header />
-            <main>
-                {/* WARNING: IF WANT ANOTHER ROW NEED TO CREATE ANOTHER CARD DECK or just create another card*/}
+            <main className="programs-body">
                 <h2>Programs</h2>
-                
                 <div className="card-deck">
-                <div className="card">
-                    <div className="card-body">
-                        <div className="container">
-                            <h4 class="title">Python</h4>
-                            <p>Description</p>
-                            <p>Date:</p>
-                            <p>Location:</p>
-                        </div>
-                    </div>
+                    <Card 
+                        title="Scratch"
+                        description="Scratch is a block-based visual programming language and online community targeted primarily at children. Scratch is really fun and I love Scratch haha just making this sentence realllyly resaallly long erfife rnew line hahahd eiwnd ewoi ew fowefowefrnew line hahahd eiwnd ewoi ew "
+                        image={ScratchLogo}
+                    />
+                    <Card 
+                        title="Python"
+                        description="Scratch is a block-based visual programming language and online community targeted primarily at children."
+                        image={PythonLogo}
+                    />
+                    <Card 
+                        title="Web Development"
+                        description="Scratch is a block-based visual programming language and online community targeted primarily at children."
+                        image={WebDevLogo}
+                    />
                 </div>
-                <div className="card">
-                    <div className="card-body">
-                        <div className="container">
-                            <h4 class="title">Python</h4>
-                            <p>Description</p>
-                            <p>Date:</p>
-                            <p>Location:</p>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                
             </main>
         </>
     )
