@@ -22,6 +22,7 @@ const Programs = () => {
                     </div>
                     <div className="card">
                         <div className="card-body">
+                            {/* image */}
                             <h4 class="title">Python</h4>
                             <p>Description</p>
                             <p>Date:</p>
