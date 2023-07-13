@@ -40,6 +40,7 @@
 
 .card-body p {
     line-height: 1.5rem;
+    margin: 1rem 5% 2rem;
 }
 
 .card .title {
@@ -50,4 +51,5 @@
     text-transform: uppercase;
     text-shadow: 0 0 20px #000000;
     margin: 0.25rem auto;
+    text-align: center;
 }

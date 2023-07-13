@@ -12,7 +12,7 @@ main.home-body {
 
 main.home-body::before {
     filter: blur(4px);
-    background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("src/assets/code.jpg");
+    background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("/code.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;

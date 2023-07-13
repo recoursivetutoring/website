@@ -6,8 +6,27 @@ body {
 main.programs-body {
     margin: 0;
     width: 100vw;
+    height: max-content;
     box-sizing: border-box;
     padding: 1rem 12rem;
+    position: relative;
+}
+
+main.programs-body::before {
+    /* filter: blur(1px); */
+    background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("/space.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100vw;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 main.programs-body h2 {
