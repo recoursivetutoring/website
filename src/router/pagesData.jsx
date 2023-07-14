@@ -2,7 +2,7 @@ import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import Register from "../pages/Register";
 import Programs from "../pages/Programs";
-import About from "../pages/About"
+// import About from "../pages/About"
 
 const pagesData = [
   {
@@ -15,11 +15,11 @@ const pagesData = [
     element: <Contact />,
     title: "Contact Us"
   },
-  {
-    path: "about",
-    element: <About />,
-    title: "About Us"
-  },
+  // {
+  //   path: "about",
+  //   element: <About />,
+  //   title: "About Us"
+  // },
   {
     path: "programs",
     element: <Programs />,
