@@ -5,6 +5,9 @@ const Register = () => {
     return (
         <>
         <Header />
+        <main>
+            <h2>Register</h2>
+        </main>
         </>
     )
 }
