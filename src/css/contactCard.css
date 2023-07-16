@@ -25,14 +25,11 @@
     font-weight: 600;
     display: block;
     text-decoration: none;
-    border: 1px solid white;
-    background-color: rgba(50, 82, 110, 0.84);
     padding: 1rem;
     width: max-content;
     transition: all 0.4s ease-in-out;
 }
 
 .contactCard-body a:hover {
-    background-color: white;
     color: rgba(50, 82, 110, 0.84)
 }
