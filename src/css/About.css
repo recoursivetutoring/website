@@ -1,0 +1,165 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+main.about-body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    padding: 1rem;
+    overflow: scroll;
+    height: 100%;
+}
+
+main.about-body::before {
+    background-image: linear-gradient(rgba(108, 7, 34, 0.657), rgba(9, 42, 107, 0.498)), url("/keys.jpg");
+    filter: blur(0.2rem);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color-dodge;
+    display: block;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: "";
+}
+
+main.about-body h2 {
+    margin-top: 2rem;
+    font-size: 4rem;
+    animation: slideIn 0.4s ease-out;
+}
+
+section.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    width: 100%;
+    min-height: max-content;
+    height: max(80vh, 100%);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.card-grid div {
+    border: 1px solid rgb(110, 110, 110);
+    background-color: rgb(167, 213, 213);
+    color: #3156a1;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.7rem;
+    box-shadow: none;
+    transition: all 0.35s ease-in-out;
+}
+
+.card-grid div:hover {
+    box-shadow: 0px 0px 20px #cd4321;
+}
+
+.card-grid div h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: "Jost", sans-serif;
+    text-transform: uppercase;
+    margin: 0.25rem auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-grid div .about-card-text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-indent: 2rem;
+}
+
+.card-grid .vert-2 {
+    grid-row: span 2;
+    animation: slideInRight 0.45s ease-out;
+}
+
+.card-grid .horiz-2 {
+    grid-column: span 2;
+    animation: slideInBottom 0.45s ease;
+}
+
+.card-grid .vert-2:nth-of-type(1) {
+    animation: slideIn 0.45s ease-out;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.member-card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto 4rem;
+    text-align: center;
+}
+
+.member-card-deck .member-card {
+    margin: 2rem auto 3rem;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@media(max-width: 768px) {
+
+    section.card-grid {
+        display: block;
+        height: 100%;
+    }
+
+    .card-grid div:nth-of-type(n) {
+        margin: 1rem auto;
+        min-height: unset;
+        height: max-content;
+        animation: slideIn 0.4s ease-out;
+    }
+
+    .card-grid div:nth-of-type(2n) {
+        animation: slideInRight 0.45s ease-out;
+    }
+
+}
