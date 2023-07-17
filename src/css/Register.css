@@ -8,7 +8,7 @@ main.register-body {
     width: 100vw;
     height: max-content;
     box-sizing: border-box;
-    padding: 1rem 12rem;
+    padding: 1rem;
     position: relative;
 }
 
@@ -29,15 +29,19 @@ main.register-body::before {
 }
 
 main.register-body p {
+    display: block;
+    margin: 1.5rem auto;
     text-align: center;
     font-size: 1.5rem;
+    width: 90%;
 }
 
 iframe {
     display:block;
-    margin:auto;
+    margin: 3rem auto 1rem;
     background-color: white;
     border-radius: 1rem;
+    max-width: 90vw;
 }
 
 .jumbotron {
