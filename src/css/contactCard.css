@@ -1,5 +1,11 @@
 .contactCard {
     font-family: "Jost", sans-serif;
+    outline: 1px solid white;
+    box-sizing: border-box;
+    padding: 0 2rem 2rem;
+    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0.38);
+    border-radius: 0.5rem;
 }
 
 .contactCard .title {
@@ -20,15 +26,14 @@
 .contactCard-body a {
     text-transform: uppercase;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Exo 2", sans-serif;
     font-weight: 600;
     display: block;
-    text-decoration: none;
     width: max-content;
     transition: all 0.4s ease-in-out;
 }
 
 .contactCard-body a:hover {
-    color: rgba(50, 82, 110, 0.84)
+    color: #e20f0f;
 }
