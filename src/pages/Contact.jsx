@@ -11,8 +11,9 @@ const Contact = () => {
            
             <ContactCard 
                 title = "Email" 
-                description = "​Please let us know if you have any questions, comments, or concerns. We'd love to hear from you!" 
+                description = "Please let us know if you have any questions, comments, or concerns. We'd love to hear from you!" 
                 link = "mailto:contact.recoursive@gmail.com"
+                linkText = "contact.recoursive@gmail.com"
             />
             
         </main>
