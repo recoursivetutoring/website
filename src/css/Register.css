@@ -50,6 +50,7 @@ iframe {
     align-items: center;
     justify-content: center;
     align-self:center;
+    text-align: center;
     text-transform: uppercase;
     font-size: 3rem;
 }
