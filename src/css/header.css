@@ -9,6 +9,10 @@ header {
     box-sizing: border-box;
 }
 
+header a {
+    text-decoration: none;
+}
+
 header h1 {
     font-family: 'Agdasima', sans-serif;
     letter-spacing: 0.10rem;
