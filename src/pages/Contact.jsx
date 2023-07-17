@@ -15,7 +15,6 @@ const Contact = () => {
                 link = "mailto:contact.recoursive@gmail.com"
                 linkText = "contact.recoursive@gmail.com"
             />
-            
         </main>
         </>
     )

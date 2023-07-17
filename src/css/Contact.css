@@ -32,7 +32,6 @@ main.contact-body h2 {
     font-size: 4rem;
 }
 
-
 @media(max-width: 768px) {
     main.contact-body h2 {
         font-size: 3rem;
