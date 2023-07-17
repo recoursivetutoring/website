@@ -13,7 +13,6 @@ main.register-body {
 }
 
 main.register-body::before {
-    /* filter: blur(1px); */
     background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("/sky.jpg");
     background-blend-mode: multiply;
     background-size: cover;
@@ -29,21 +28,9 @@ main.register-body::before {
     z-index: -1;
 }
 
-main.register-body h2 {
-    font-size: 4rem;
-}
-
-main.register-body h4 {
-    font-size: 1.5rem;
-}
-
 main.register-body p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self:center;
+    text-align: center;
     font-size: 1.5rem;
-    
 }
 
 iframe {
