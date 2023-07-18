@@ -104,14 +104,16 @@ section.card-grid {
 .member-card-deck {
     display: flex;
     flex-wrap: wrap;
+    justify-items: space-between;
     justify-content: center;
     align-items: center;
     margin: 1rem auto 4rem;
     text-align: center;
+    min-height: max-content;
 }
 
 .member-card-deck .member-card {
-    margin: 2rem auto 3rem;
+    margin: 2rem 3rem;
 }
 
 @keyframes slideIn {

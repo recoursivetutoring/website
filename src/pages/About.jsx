@@ -46,17 +46,46 @@ const About = () => {
                 <div className="member-card-deck">
                     <PersonCard
                         name="Mudasir"
-                        description="Wow this is such a cool description"
+                        school="Bergen County Academies"
+                        description="Web Developer / Course Creator / Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
                             {
                                 icon: "fab fa-github",
                                 link: "https://www.github.com/mud-ali"
+                            },
+                            {
+                                icon: "fa-regular fa-envelope",
+                                link: "mailto:mmxali22@gmail.com"
                             }
                         ]}
                     />
                     <PersonCard
-                        name="John Doe"
+                        name="Noah Kim"
+                        school="Bergen County Technical High School"
+                        description="Founder / Course Creator / Instructor"
+                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        links={[
+                            {
+                                icon: "fa-regular fa-envelope",
+                                link: "mailto:email@example.com"
+                            }
+                        ]}
+                    />
+                    <PersonCard
+                        name="Isaac Kim"
+                        school="Bergen County Academies"
+                        description="Founder"
+                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        links={[
+                            {
+                                icon: "fa-regular fa-envelope",
+                                link: "mailto:email@example.com"
+                            }
+                        ]}
+                    />
+                    <PersonCard
+                        name="Jake Park"
                         description="Wow this is such a cool description"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
@@ -67,7 +96,7 @@ const About = () => {
                         ]}
                     />
                     <PersonCard
-                        name="John Doe"
+                        name="Jin Chang"
                         description="Wow this is such a cool description"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
@@ -78,7 +107,7 @@ const About = () => {
                         ]}
                     />
                     <PersonCard
-                        name="John Doe"
+                        name="Jack Remmert"
                         description="Wow this is such a cool description"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
@@ -89,7 +118,7 @@ const About = () => {
                         ]}
                     />
                     <PersonCard
-                        name="John Doe"
+                        name="Jaden Manuel"
                         description="Wow this is such a cool description"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
@@ -100,18 +129,7 @@ const About = () => {
                         ]}
                     />
                     <PersonCard
-                        name="John Doe"
-                        description="Wow this is such a cool description"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
-                        links={[
-                            {
-                                icon: "fa-regular fa-envelope",
-                                link: "mailto:email@example.com"
-                            }
-                        ]}
-                    />
-                    <PersonCard
-                        name="John Doe"
+                        name="Evan Cabrera"
                         description="Wow this is such a cool description"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
