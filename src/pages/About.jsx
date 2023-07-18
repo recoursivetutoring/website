@@ -45,22 +45,6 @@ const About = () => {
             <section id="members" className="members">
                 <div className="member-card-deck">
                     <PersonCard
-                        name="Mudasir"
-                        school="Bergen County Academies"
-                        description="Web Developer / Course Creator / Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
-                        links={[
-                            {
-                                icon: "fab fa-github",
-                                link: "https://www.github.com/mud-ali"
-                            },
-                            {
-                                icon: "fa-regular fa-envelope",
-                                link: "mailto:mmxali22@gmail.com"
-                            }
-                        ]}
-                    />
-                    <PersonCard
                         name="Noah Kim"
                         school="Bergen County Technical High School"
                         description="Founder / Course Creator / Instructor"
@@ -75,29 +59,49 @@ const About = () => {
                     <PersonCard
                         name="Isaac Kim"
                         school="Bergen County Academies"
-                        description="Founder"
+                        description="Founder / Course Creator / Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
                             {
                                 icon: "fa-regular fa-envelope",
                                 link: "mailto:email@example.com"
+                            }
+                        ]}
+                    />
+                    <PersonCard
+                        name="Mudasir Ali"
+                        school="Bergen County Academies"
+                        description="Website Developer / Course Creator / Instructor"
+                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        links={[
+                            {
+                                icon: "fab fa-github",
+                                link: "https://www.github.com/mud-ali"
+                            },
+                            {
+                                icon: "fa-regular fa-envelope",
+                                link: "mailto:mmxali22@gmail.com"
                             }
                         ]}
                     />
                     <PersonCard
                         name="Jake Park"
-                        description="Wow this is such a cool description"
+                        description="Website Developer / Course Creator / Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
                             {
-                                icon: "fa-regular fa-envelope",
-                                link: "mailto:email@example.com"
+                                icon: "fab fa-github",
+                                link: "https://github.com/3dgyGamer"
+                            },
+                            {
+                                icon: "fab fa-linkedin",
+                                link: "https://www.linkedin.com/in/jake-park-4222a92"
                             }
                         ]}
                     />
                     <PersonCard
                         name="Jin Chang"
-                        description="Wow this is such a cool description"
+                        description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
                             {
@@ -108,7 +112,7 @@ const About = () => {
                     />
                     <PersonCard
                         name="Jack Remmert"
-                        description="Wow this is such a cool description"
+                        description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
                             {
@@ -119,7 +123,7 @@ const About = () => {
                     />
                     <PersonCard
                         name="Jaden Manuel"
-                        description="Wow this is such a cool description"
+                        description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
                             {
@@ -130,7 +134,7 @@ const About = () => {
                     />
                     <PersonCard
                         name="Evan Cabrera"
-                        description="Wow this is such a cool description"
+                        description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
                             {
