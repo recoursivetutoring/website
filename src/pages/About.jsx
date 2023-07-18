@@ -86,6 +86,7 @@ const About = () => {
                     />
                     <PersonCard
                         name="Jake Park"
+                        school="Bergen County Technical High School"
                         description="Website Developer / Course Creator / Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
@@ -101,6 +102,7 @@ const About = () => {
                     />
                     <PersonCard
                         name="Jin Chang"
+                        school="Bergen County Academies"
                         description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
@@ -112,6 +114,7 @@ const About = () => {
                     />
                     <PersonCard
                         name="Jack Remmert"
+                        school="Bergen County Academies"
                         description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
@@ -123,6 +126,7 @@ const About = () => {
                     />
                     <PersonCard
                         name="Jaden Manuel"
+                        school="Bergen County Academies"
                         description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
@@ -134,6 +138,7 @@ const About = () => {
                     />
                     <PersonCard
                         name="Evan Cabrera"
+                        school="Bergen County Technical High School"
                         description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
