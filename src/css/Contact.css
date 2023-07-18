@@ -3,54 +3,41 @@ body {
     overflow-y: scroll;
 }
 
-main.programs-body {
+main.contact-body {
     margin: 0;
     width: 100vw;
-    height: max(max-content, 100vh);
+    height: max-content;
     box-sizing: border-box;
     padding: 1rem 12rem;
     position: relative;
 }
 
-main.programs-body::before {
-    background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("/space.jpg");
+main.contact-body::before {
+    background: linear-gradient(38deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 14%, rgba(38,3,205,1) 50%, rgba(0, 212, 255, 1) 100%);
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: max(100vh, 100%);
-    min-width: 100vw;
+    width: 100vw;
     content: "";
     display: block;
     position: absolute;
     top: 0;
     left: 0;
-    content: "";
     z-index: -1;
 }
 
-main.programs-body h2 {
+main.contact-body h2 {
     font-size: 4rem;
 }
 
-.card-deck {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 4rem;
-}
-
-.card-deck .card {
-    margin-bottom: 1rem;
-}
-
 @media(max-width: 768px) {
-    main.programs-body h2 {
+    main.contact-body h2 {
         font-size: 3rem;
     }
 
-    main.programs-body {
+    main.contact-body {
         padding: 1rem;
     }
 }
