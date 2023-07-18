@@ -9,7 +9,14 @@ const PersonCard = (props) => {
             </div>
             <div className="member-card-body">
                 <h4 className="name">{props.name}</h4>
-                <p>{props.description}</p>
+                <p>
+                    <em>
+                        {props.school}
+                    </em>
+                </p>
+                <p>
+                    {props.description}
+                </p>
                 <div className="member-card-footer">
                     {
                         props.links.map((link, index) => {
