@@ -6,6 +6,7 @@
     margin-top: 3rem;
     background-color: rgba(0, 0, 0, 0.38);
     border-radius: 0.5rem;
+    word-wrap: break-word;
 }
 
 .contactCard .title {
@@ -26,7 +27,7 @@
 .contactCard-body a {
     text-transform: uppercase;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: "Exo 2", sans-serif;
     font-weight: 600;
     display: block;
