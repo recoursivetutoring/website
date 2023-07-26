@@ -13,7 +13,8 @@ main.contact-body {
 }
 
 main.contact-body::before {
-    background: linear-gradient(38deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 14%, rgba(38,3,205,1) 50%, rgb(28, 101, 116) 100%);
+    filter: blur(1.5px);
+    background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("/street.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
