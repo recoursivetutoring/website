@@ -21,9 +21,8 @@ const About = () => {
                     <h3>Our Program</h3>
                     <p className="about-card-text">
                         If you are a local community leader and would like to host a coding course at your location, we offer our free teaching services. This includes any public location from a library to a community organization. 
-                        <br/>
-                        <br/>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <p className="about-card-text">
                         The format of the program is a one hour session that takes place 1-2 times a week. We offer different lengths of courses, from 6 weeks to 10 weeks. 
                     </p>
                 </div>
@@ -35,8 +34,8 @@ const About = () => {
                     </p>
                 </div>
                 <div className="horiz-2">
-                    <p className="about-card-text center-text">
-                        As we offer free teaching services to local community centers, we expect that students will not be charged to attend.
+                    <p className="about-card-text">
+                        As we offer teaching services for free to local community centers, we expect that students will not be charged to attend.
                     </p>
                 </div>
             </section>

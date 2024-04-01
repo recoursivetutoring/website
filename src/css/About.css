@@ -15,7 +15,7 @@ main.about-body {
 }
 
 main.about-body::before {
-    background-image: linear-gradient(rgba(108, 7, 34, 0.657), rgba(9, 42, 107, 0.498)), url("/keys.jpg");
+    background-image: linear-gradient(rgba(108, 7, 34, 0.657), rgba(9, 42, 107, 0.498), rgba(108, 7, 34, 0.657));/*, url("/keys.jpg");*/
     filter: blur(0.2rem);
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,8 +50,7 @@ section.card-grid {
 }
 
 .card-grid div {
-    border: 1px solid rgb(110, 110, 110);
-    background-color: rgb(167, 213, 213);
+    background-color: #fff;
     color: #3156a1;
     padding: 1.5rem;
     box-sizing: border-box;
@@ -60,10 +59,6 @@ section.card-grid {
     border-radius: 0.7rem;
     box-shadow: none;
     transition: all 0.35s ease-in-out;
-}
-
-.card-grid div:hover {
-    box-shadow: 0px 0px 20px #cd4321;
 }
 
 .card-grid div h3 {
