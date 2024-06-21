@@ -6,7 +6,8 @@ body {
 main.programs-body {
     margin: 0;
     width: 100vw;
-    height: max(max-content, 100vh);
+    min-height: 100vh;
+    height: max-content;
     box-sizing: border-box;
     padding: 1rem 12rem;
     position: relative;
