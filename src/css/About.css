@@ -15,11 +15,10 @@ main.about-body {
 }
 
 main.about-body::before {
-    background-image: linear-gradient(rgba(108, 7, 34, 0.657), rgba(9, 42, 107, 0.498), rgba(108, 7, 34, 0.657));/*, url("/keys.jpg");*/
+    background-image: linear-gradient(rgba(8, 7, 34, 0.657), rgba(9, 42, 107, 0.498), rgba(7, 7, 34, 0.657));
     filter: blur(0.2rem);
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: color-dodge;
     display: block;
     height: 100%;
     width: 100vw;
@@ -45,7 +44,7 @@ section.card-grid {
     width: 100%;
     min-height: max-content;
     height: max(80vh, 100%);
-    padding: 1rem;
+    padding: 1rem 4rem;
     box-sizing: border-box;
 }
 
@@ -80,16 +79,17 @@ section.card-grid {
 
 .card-grid .vert-2 {
     grid-row: span 2;
-    animation: slideInRight 0.45s ease-out;
+    animation: slideInRight 0.45s ease-out 0.1s both;
 }
 
 .card-grid .horiz-2 {
     grid-column: span 2;
-    animation: slideInBottom 0.45s ease;
+    grid-row: span 2;
+    animation: growIn 1s ease;
 }
 
 .card-grid .vert-2:nth-of-type(1) {
-    animation: slideIn 0.45s ease-out;
+    animation: slideIn 0.45s ease-out 0.1s both;
 }
 
 .center-text {
@@ -113,7 +113,7 @@ section.card-grid {
 
 @keyframes slideIn {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-200%);
     }
 
     100% {
@@ -121,19 +121,19 @@ section.card-grid {
     }
 }
 
-@keyframes slideInBottom {
+@keyframes growIn {
     0% {
-        transform: translateY(100%);
+        transform: scale(0.001);
     }
 
     100% {
-        transform: translateX(0%);
+        transform: scale(1) translate(0,0);
     }
 }
 
 @keyframes slideInRight {
     0% {
-        transform: translateX(100%);
+        transform: translateX(200%);
     }
 
     100% {

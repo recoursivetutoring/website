@@ -25,6 +25,9 @@ const About = () => {
                     <p className="about-card-text">
                         The format of the program is a one hour session that takes place 1-2 times a week. We offer different lengths of courses, from 6 weeks to 10 weeks. 
                     </p>
+                    <p className="about-card-text">
+                        As we offer teaching services for free to local community centers, we expect that students will not be charged to attend.
+                    </p>
                 </div>
                 
                 <div className="vert-2">
@@ -33,11 +36,7 @@ const About = () => {
                         This course is designed mainly for students in grades 3-8. No prior coding experience is required, as our course is designed as a introduction to various programming languages. Additionally, we teach fundamental computer science concepts and paradigms that can be applied to any programming language. 
                     </p>
                 </div>
-                <div className="horiz-2">
-                    <p className="about-card-text">
-                        As we offer teaching services for free to local community centers, we expect that students will not be charged to attend.
-                    </p>
-                </div>
+                
             </section>
 
             <h2>Meet the Team</h2>
@@ -47,7 +46,7 @@ const About = () => {
                         name="Noah Kim"
                         school="Bergen County Technical High School"
                         description="Founder / Course Creator / Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        image="/pfp.png"
                         links={[
                             {
                                 icon: "fab fa-github",
@@ -63,11 +62,11 @@ const About = () => {
                         name="Isaac Kim"
                         school="Bergen County Academies"
                         description="Founder / Course Creator / Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        image="/pfp.png"
                         links={[
                             {
                                 icon: "fa-regular fa-envelope",
-                                link: "mailto:email@example.com"
+                                link: "mailto:hyunwooisaac113@gmail.com "
                             }
                         ]}
                     />
@@ -75,7 +74,7 @@ const About = () => {
                         name="Mudasir Ali"
                         school="Bergen County Academies"
                         description="Website Developer / Course Creator / Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        image="/pfp.png"
                         links={[
                             {
                                 icon: "fab fa-github",
@@ -91,7 +90,7 @@ const About = () => {
                         name="Jake Park"
                         school="Bergen County Technical High School"
                         description="Website Developer / Course Creator / Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        image="/pfp.png"
                         links={[
                             {
                                 icon: "fab fa-github",
@@ -107,11 +106,11 @@ const About = () => {
                         name="Jin Chang"
                         school="Bergen County Academies"
                         description="Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        image="/pfp.png"
                         links={[
                             {
                                 icon: "fa-regular fa-envelope",
-                                link: "mailto:email@example.com"
+                                link: "mailto:jinchang223@gmail.com"
                             }
                         ]}
                     />
@@ -119,31 +118,31 @@ const About = () => {
                         name="Jack Remmert"
                         school="Bergen County Academies"
                         description="Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        image="/pfp.png"
                         links={[
                             {
                                 icon: "fa-regular fa-envelope",
-                                link: "mailto:email@example.com"
+                                link: "mailto:jacrem25@bergen.org"
                             }
                         ]}
                     />
-                    <PersonCard
+                    {/* <PersonCard
                         name="Jaden Manuel"
                         school="Bergen County Academies"
                         description="Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        image="/pfp.png"
                         links={[
                             {
                                 icon: "fa-regular fa-envelope",
-                                link: "mailto:email@example.com"
+                                link: "jadman24@bergen.org"
                             }
                         ]}
-                    />
+                    /> */}
                     <PersonCard
                         name="Evan Cabrera"
                         school="Bergen County Technical High School"
                         description="Instructor"
-                        image="https://avatars.githubusercontent.com/u/56193495?v=4"
+                        image="/pfp.png"
                         links={[
                             {
                                 icon: "fab fa-github",
@@ -151,7 +150,7 @@ const About = () => {
                             },
                             {
                                 icon: "fa-regular fa-envelope",
-                                link: "mailto:email@example.com"
+                                link: "mailto:evacab25@bergen.org"
                             }
                         ]}
                     />
