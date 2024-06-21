@@ -146,6 +146,7 @@ section.card-grid {
     section.card-grid {
         display: block;
         height: 100%;
+        padding: 0.5rem;
     }
 
     .card-grid div:nth-of-type(n) {
