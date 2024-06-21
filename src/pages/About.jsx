@@ -50,8 +50,12 @@ const About = () => {
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
                             {
+                                icon: "fab fa-github",
+                                link: "https://github.com/n0ahk1m"
+                            },
+                            {
                                 icon: "fa-regular fa-envelope",
-                                link: "mailto:email@example.com"
+                                link: "mailto:noahmatiaskim@gmail.com"
                             }
                         ]}
                     />
@@ -91,11 +95,11 @@ const About = () => {
                         links={[
                             {
                                 icon: "fab fa-github",
-                                link: "https://github.com/3dgyGamer"
+                                link: "https://github.com/jp0x1"
                             },
                             {
-                                icon: "fab fa-linkedin",
-                                link: "https://www.linkedin.com/in/jake-park-4222a92"
+                                icon: "fa-regular fa-envelope",
+                                link: "mailto:jakepark2908@gmail.com"
                             }
                         ]}
                     />
@@ -141,6 +145,10 @@ const About = () => {
                         description="Instructor"
                         image="https://avatars.githubusercontent.com/u/56193495?v=4"
                         links={[
+                            {
+                                icon: "fab fa-github",
+                                link: "https://github.com/Aidven"
+                            },
                             {
                                 icon: "fa-regular fa-envelope",
                                 link: "mailto:email@example.com"
