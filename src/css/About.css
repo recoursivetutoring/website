@@ -37,7 +37,7 @@ main.about-body h2 {
 
 section.card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2rem;
     margin-bottom: 1rem;
     margin-top: 4rem;
@@ -158,6 +158,14 @@ section.card-grid {
 
     .card-grid div:nth-of-type(2n) {
         animation: slideInRight 0.45s ease-out;
+    }
+
+}
+
+@media(min-width: 1920px) {
+
+    section.card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
 }

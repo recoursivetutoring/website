@@ -9,8 +9,8 @@
     color: #3156a1;
     border-radius: 0.9rem;
     overflow: hidden;
-    width: 20vw;
-    height: 30vw;
+    width: 22vw;
+    height: 35vw;
     min-height: max-content;
     transition: all 0.2s ease-in-out;
     box-sizing: border-box;
@@ -54,7 +54,7 @@
 
 @media screen and (min-width: 1920px) {
     .member-card {
-        width: 17vw;
+        width: 16vw;
         height: 25vw;
     }
 }
