@@ -103,6 +103,18 @@ const About = () => {
                         ]}
                     />
                     <PersonCard
+                        name="Jack Remmert"
+                        school="Bergen County Academies"
+                        description="Instructor / Course Creator"
+                        image="/pfp.png"
+                        links={[
+                            {
+                                icon: "fa-regular fa-envelope",
+                                link: "mailto:jacrem25@bergen.org"
+                            }
+                        ]}
+                    />
+                    <PersonCard
                         name="Jin Chang"
                         school="Bergen County Academies"
                         description="Instructor"
@@ -114,30 +126,6 @@ const About = () => {
                             }
                         ]}
                     />
-                    <PersonCard
-                        name="Jack Remmert"
-                        school="Bergen County Academies"
-                        description="Instructor"
-                        image="/pfp.png"
-                        links={[
-                            {
-                                icon: "fa-regular fa-envelope",
-                                link: "mailto:jacrem25@bergen.org"
-                            }
-                        ]}
-                    />
-                    {/* <PersonCard
-                        name="Jaden Manuel"
-                        school="Bergen County Academies"
-                        description="Instructor"
-                        image="/pfp.png"
-                        links={[
-                            {
-                                icon: "fa-regular fa-envelope",
-                                link: "jadman24@bergen.org"
-                            }
-                        ]}
-                    /> */}
                     <PersonCard
                         name="Evan Cabrera"
                         school="Bergen County Technical High School"
